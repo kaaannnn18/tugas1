@@ -1,0 +1,244 @@
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+body {
+  background-color: #5790ab;
+}
+
+.container {
+}
+
+.head-welcome {
+ display: flex;
+  height: 50px;
+  text-align: left;
+  margin: 30px;
+  align-items: center;
+  padding-top: 10%;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: antiquewhite;
+  
+}
+.pplg{
+  display: flex;
+  height: 20px;
+  text-align: left;
+  margin: 30px;
+  font-size: 20px;
+  padding-top: 3%;
+  font-family: "Times New Roman", Times, serif;
+  color: antiquewhite;
+}
+
+.pplg1{
+  display: flex;
+  height: 20px;
+  text-align: left;
+  margin: 30px;
+  font-size: 20px;
+  padding-top: 3%;
+  font-family: "Times New Roman", Times, serif;
+  color: antiquewhite;
+  padding:30px;
+  border: #5790ab;
+}
+
+
+.head-welcome1 {
+ display: flex;
+  height: 50px;
+  text-align: left;
+  margin: 30px;
+  align-items: center;
+  padding-top: 8%;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: antiquewhite;}
+
+.container-navbar {
+  background-color: #064469;
+  width: 100%;
+  height: 10vh;
+}
+
+.ul-navbar {
+  display: flex;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-navbar {
+  list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+  color: white;
+  font-size: 18px;
+}
+
+.li-navbar:hover {
+  background-color: #a1b8f7;
+  border-radius: 25px;
+}
+.a-navbar {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.container-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.aku {
+    display: flex;
+  height: 15%;
+  text-align: left;
+  margin: 190px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: antiquewhite;
+ background-color: rgb(6, 109, 143);
+  border-radius: 20px;
+justify-content: center;
+
+  
+
+}
+
+.img-content {
+  float: right;
+  width: 50%;
+  height: auto;
+  margin-left: 65%;
+  margin-right: 20px;
+  justify-content: space-between;
+}
+
+.service-item {
+     list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+  color: white;
+  font-size: 18px;
+   display: flex;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+align-items: center;
+justify-content: center;
+
+}
+
+.aku1 {
+    display: flex;
+  height: 15%;
+  text-align: left;
+  margin: 100px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: antiquewhite;
+ background-color: rgb(6, 109, 143);
+  border-radius: 20px;
+justify-content: center;
+}
+
+#services {
+    background-color: #f0f8ff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#services-h2 {
+    color: #007bff; 
+    text-align: center; 
+    margin-bottom: 20px;
+}
+.service-item {
+    background-color: aquamarine;
+    margin: 15px 0; 
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+.service-item h3 {
+    color: #0056b3; 
+    margin-bottom: 10px; 
+}
+
+
+.service-item p {
+    color: #333333; 
+    line-height: 1.5; 
+}
+
+.btn {
+    display: inline-block; 
+    background-color: #007bff; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    text-align: center; 
+    margin-top: 20px; 
+    transition: background-color 0.3s; 
+    right: 50%;
+}
+
+.btn:hover {
+    background-color: #0056b3; 
+}
+
+.btn1 {
+    display: inline-block; 
+    background-color: #007bff; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    text-align: center; 
+    margin-top: 20px; 
+    transition: background-color 0.3s; 
+    right: 50%;
+}
+
+.btn1:hover {
+    background-color: #0056b3; 
+}
+
+.btn2 {
+    display: inline-block; 
+    background-color: #007bff; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    text-align: center; 
+    margin-top: 20px; 
+    transition: background-color 0.3s; 
+    right: 50%;
+    left: 50%;
+}
+
+.btn:hover2 {
+    background-color: #0056b3; 
+}
